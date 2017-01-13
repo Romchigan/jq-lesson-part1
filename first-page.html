@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<title>jq-lesson-part1</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h1 class="text-center pt-4">JQ lesson part 1 --- Buttons</h1>
+			</div>
+			<div class="col-md-6 text-right">
+				<form action="second-page.html">
+					<button type="submit" class="btn btn-primary">Second page</button>
+				</form>
+			</div>
+			<div class="col-md-6 text-left">
+				<form action="">
+					<button type="submit" class="btn btn-primary">Third page</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row flex-column align-items-start">
+			<button type="button" class="btn btn-primary" id="addClass">addClass</button>
+			<button type="button" class="btn btn-danger btn-block" id="removeClass">removeClass</button>
+			<button type="button" class="btn btn-success btn-lg" id="toggleClass">toggleClass</button>
+			<button type="button" class="btn btn-info" id="getAttr" name="getAttr">getAttr</button>
+			<button type="button" class="btn btn-warning" id="setAttr">setAttr</button>
+			<button type="button" class="btn btn-danger" id="alertOnClick">alertOnClick</button>
+			<button type="button" class="btn btn-secondary" id="triggerAlert">triggerAlert</button>
+			<button type="button" class="btn btn-primary" id="cloneThis" value="cloneThis">cloneThis</button>
+			<button type="button" class="btn btn-outline-success" id="closestElement">closestElement</button>
+			<button type="button" class="btn btn-outline-info" id="eachBtnText">eachBtnText</button>
+			<button type="button" class="btn btn-outline-warning" id="findMe">findMet</button>
+			<button type="button" class="btn btn-outline-danger" id="fadeInText">fadeInText</button>
+			<p class="info">
+				jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+			</p>
+			<button type="button" class="btn btn-primary" id="fadeOutText">fadeOutText</button>
+			<h4 class="heading">Write less, do more</h4>
+			<button type="button" class="btn btn-success" id="hideText">hideText</button>
+			<h4 class="hide-text">This hidden text.</h4>
+			<button type="button" class="btn btn-warning" id="showText">showText</button>
+			<h4 class="show-text">This showing text.</h4>
+			<button type="button" class="btn btn-danger" id="dataAboutMe" value="dataAboutMe">dataAboutMe</button>
+		</div>
+	</div>
+
+
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="js/first-pages.js"></script>
+</body>
+</html>

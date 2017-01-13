@@ -1,0 +1,40 @@
+button {
+  margin-top: 20px;
+}
+
+.info {
+  display: none;
+  padding-top: 10px;
+  position: absolute;
+  left: 160px;
+  top: 620px;
+}
+
+.heading {
+  position: absolute;
+  left: 160px;
+  top: 730px;
+}
+
+.hide-text {
+  position: absolute;
+  left: 160px;
+  top: 785px;
+}
+
+.show-text {
+  position: absolute;
+  left: 160px;
+  top: 845px;
+  display: none;
+}
+
+/*-----Part 2------------*/
+.info-jq {
+  padding-top: 50px;
+  font-size: 18px;
+}
+
+.bootstrap-info-second {
+  display: none;
+}

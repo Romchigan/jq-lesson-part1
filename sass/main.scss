@@ -29,7 +29,7 @@ button {
   display: none;
 }
 
-/*-----Part 2------------*/
+/*-----------Part 2------------*/
 .info-jq {
   padding-top: 50px;
   font-size: 18px;
@@ -38,3 +38,20 @@ button {
 .bootstrap-info-second {
   display: none;
 }
+
+/*-----------Part 3------------*/
+
+fieldset {
+  margin-top: 40px;
+}
+
+#name {
+  padding: 5px 0 5px 10px;
+}
+
+#surname {
+  padding: 5px 0 5px 10px;
+}
+
+#age {
+  padding: 5px 0 5px 10px;}

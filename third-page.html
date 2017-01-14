@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css" type="text/css">
+	<link rel="stylesheet" href="css/main.min.css" type="text/css">
+	<title>jq-lesson-part1</title>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 class="text-center pt-4">JQ lesson part 3 --- Form</h1>
+		</div>
+		<div class="col-md-6 text-right">
+			<form action="second-page.html">
+				<button type="submit" class="btn btn-primary">Second page</button>
+			</form>
+		</div>
+		<div class="col-md-6 text-left">
+			<form action="first-page.html">
+				<button type="submit" class="btn btn-primary">First page</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<form action="third-page.html" id="form">
+			<fieldset>
+				<legend>Inputs</legend>
+				<p>
+					<label for="name"></label>
+					<input type="text" id="name" name="input-name" placeholder="Введите Ваше имя">
+				</p>
+				<p>
+					<label for="surname"></label>
+					<input type="text" id="surname" placeholder="Введите Вашу фамилию">
+				</p>
+				<p>
+					<label for="age"></label>
+					<input type="number" id="age" placeholder="Введите Ваш возраст" min="18">
+				</p>
+			</fieldset>
+			<fieldset id="lang">
+				<legend>Proficiency language</legend>
+				<input type="checkbox" id="Ua" name="lang" value="Ua">Ua
+				<label for="Ua"></label>
+				<input type="checkbox" id="Ru" name="lang" value="Ru">Ru
+				<label for="Ru"></label>
+				<input type="checkbox" id="Eng" name="lang" value="Eng">Eng
+				<label for="Eng"></label>
+				<input type="checkbox" id="Other" name="lang" value="Other">Other
+				<label for="Other"></label>
+			</fieldset>
+			<fieldset>
+				<legend>Ваш пол</legend>
+				<label for="first-select"></label>
+				<select name="first-select" id="first-select">
+					<option>Пол</option>
+					<option value="женский" name="woman" id="woman">женский</option>
+					<option value="мужской" name="man" id="man">мужской</option>
+				</select>
+			</fieldset>
+			<fieldset>
+				<legend>Select second</legend>
+				<label for="second-select"></label>
+				<select name="second-select" id="second-select">
+					<option>Color</option>
+					<option value="red" name="red-option">red</option>
+					<option value="green" name="green-option">green</option>
+					<option value="blue" name="blue-option">blue</option>
+				</select>
+			</fieldset>
+			<fieldset id="radio">
+				<legend>Radio buttons</legend>
+				<label for="first-radio"></label>
+				<input type="radio" id="first-radio" name="radio" value="first-radio">first
+				<label for="second-radio" class="pr-4"></label>
+				<input type="radio" id="second-radio" name="radio" value="second-radio">second
+				<label for="third-radio" class="pr-4"></label>
+				<input type="radio" id="third-radio" name="radio" value="third-radio">third
+			</fieldset>
+			<fieldset>
+				<legend>Clon</legend>
+				<p>
+					<label for="name"></label>
+					<input type="text" id="input-first" name="input1">
+				</p>
+				<p>
+					<label for="name"></label>
+					<input type="text" id="input-second" name="input2">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Keypress</legend>
+				<p>
+					<label for="cod"></label>
+					<input type="text" id="cod">
+				</p>
+			</fieldset>
+			<fieldset>
+				<legend>Keydown</legend>
+				<p>
+					<label for="bg"></label>
+					<input type="text" id="bg">
+				</p>
+			</fieldset>
+			<button type="submit" name="submit" value="sabmit" id="submit">Submit</button>
+		</form>
+	</div>
+</div>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<script src="js/third-pages.js"></script>
+</body>
+</html>
